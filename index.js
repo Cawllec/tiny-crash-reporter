@@ -15,7 +15,7 @@ function handleException(stopExecution) {
 
 //The setup function that accepts the initial options and sets up handlers
 function tcr(stopExecution) {
-    process.on('uncaughtException', handleException(stopExecution || true));
+    process.on('uncaughtException', handleException(stopExecution !== false));
 }
 
 module.exports = tcr;

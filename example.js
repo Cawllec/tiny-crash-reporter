@@ -5,7 +5,7 @@ const TinyCrashReporter = require('./index');
 
 //Initiate the module
 //Module accepts a boolean on whether to stop execution on expception, defaults to true
-TinyCrashReporter(true);
+TinyCrashReporter(false);
 
 //If an error occurs, crash reporter will catch and log it
 someMissingObject.someMissingFunction();
