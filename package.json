@@ -3,5 +3,9 @@
   "version": "1.0.2",
   "description": "Reports uncaught exceptions",
   "main": "index.js",
-  "author": "Alex.moinet@yahoo.co.uk"
+  "author": "Alex.moinet@yahoo.co.uk",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Cawllec/tiny-crash-reporter.git"
+  }
 }
