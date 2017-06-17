@@ -18,7 +18,8 @@ TinyCrashReporter();
 This initialises the module and will start it handling your uncaught exceptions.
 
 TinyCrashReporter accepts one argument:
-  ```js stopExcecution```: Tells the module to end the process when an exception is handled.  Default: true
+  ```stopExcecution```: Tells the module to end the process when an exception is handled.  Default: ```true```
+  
 
 ## Examples
 
